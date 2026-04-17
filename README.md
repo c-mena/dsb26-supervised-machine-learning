@@ -1,25 +1,25 @@
 # Predicción inteligente de gasto en clientes e-commerce
 
-Este repositorio aloja el proyecto del **Módulo 6: Predicción inteligente de gasto en clientes e-commerce**, perteneciente al **"Bootcamp Fundamentos de Ciencias de Datos 2026"** de **Talento Digital para Chile - SENCE**.
+Este repositorio aloja el proyecto del **Módulo 6: Aprendizaje de Máquina Supervisado**, perteneciente al **"Bootcamp Fundamentos de Ciencias de Datos 2026"** de **Talento Digital para Chile - SENCE**.
 
 Como analista de datos junior del Departamento de Analítica Comercial, se nos ha encomendado construir un modelo predictivo robusto. La meta es estimar el monto de compra que se espera de un cliente basándonos en variables históricas como el comportamiento en línea, duración de membresía y edad, utilizando técnicas de aprendizaje de máquina supervisado (regresión) y su posterior optimización.
 
 ## Estructura del Proyecto
 
-- [`main.ipynb`](main.ipynb): Notebook interactivo principal que contiene todo el desarrollo del caso paso a paso. Combina explicaciones teóricas con la implementación del código; limpieza de datos, entrenamiento y validación de modelos ([▶ Ver en nbviewer](https://nbviewer.org/github/c-mena/dsb26-supervised-machine-learning/blob/main/main.ipynb)).
+- [`main.ipynb`](main.ipynb) ([▶ _Ver en_ __nbviewer__](https://nbviewer.org/github/c-mena/dsb26-supervised-machine-learning/blob/main/main.ipynb)): Notebook interactivo principal que contiene todo el desarrollo del caso paso a paso. Combina explicaciones teóricas con la implementación del código; limpieza de datos, entrenamiento y validación de modelos.
 - [`data/data.csv`](data/data.csv): Dataset original a utilizar ([Ecommerce Customer Data](https://www.kaggle.com/datasets/iabdulw/ecommerce-customer-data)), equivalente al registro histórico de compras.
 - [`README.md`](README.md): Archivo de presentación y documentación del repositorio (este documento).
-- [`technical_report.md`](technical_report.md): Reporte técnico en formato narrativo que incluye las justificaciones teóricas, insights y reflexiones obtenidas a partir de los datos.
+- [`technical_report.md`](technical_report.md): Reporte técnico que incluye las justificaciones teóricas, insights y reflexiones obtenidas a partir de los datos.
 
 ## Requisitos y Tecnologías
 
 Para desplegar este proyecto y reproducir los experimentos, es necesario disponer del gestor de paquetes `uv` y un entorno de Python conformado con las siguientes bibliotecas:
 
-- **pandas**: Esencial para manipulación, limpieza y estructuración tabular de los datos.
-- **numpy**: Necesario para realizar operaciones matriciales y simular distribuciones estadísticas (ej. imputación de edades).
-- **scikit-learn**: La biblioteca núcleo para las rutinas de Machine Learning, incluyendo preprocesamiento, partición de los datos (CV), y para el instanciamiento de regresiones, ensamble de árboles (Boosting) y métricas de error corporativas.
-- **matplotlib** y **seaborn**: Herramientas por excelencia para la generación de gráficas estáticas, distribuciones de variables y análisis del rendimiento (curvas de sobreajuste).
-- **ipykernel**: Ejecución del cuaderno en entorno Jupyter / VS Code.
+- `pandas`: Esencial para manipulación, limpieza y estructuración tabular de los datos.
+- `numpy`: Necesario para realizar operaciones matriciales y simular distribuciones estadísticas (ej. imputación de edades).
+- `scikit-learn`: La biblioteca núcleo para las rutinas de Machine Learning, incluyendo preprocesamiento, partición de los datos (CV), y para el instanciamiento de regresiones, ensamble de árboles (Boosting) y métricas de error corporativas.
+- `matplotlib` y `seaborn`: Herramientas por excelencia para la generación de gráficas estáticas, distribuciones de variables y análisis del rendimiento (curvas de sobreajuste).
+- `ipykernel`: Ejecución del cuaderno en entorno Jupyter / VS Code.
 
 ## Instalación y Despliegue Local
 
